@@ -6,6 +6,7 @@ public class Line : MonoBehaviour
 {
 	private void OnTriggerExit(Collider other)
 	{
-		Destroy(other.gameObject.transform.parent.gameObject);
+		//Destroy(other.transform.parent.gameObject);
+		GameManager.Instance.DestroyCube(other.transform.parent.gameObject);
 	}
 }

@@ -501,6 +501,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cubeSpeed: 2
+  capacity: 100
+  maxSize: 200
 --- !u!4 &2089807325
 Transform:
   m_ObjectHideFlags: 0
